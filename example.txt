@@ -1,0 +1,14 @@
+El archivo se abrió correctamente para lectura.
+Ingresa un número: Ingresa un texto: El número ingresado es: 2.00
+El texto ingresado es: Hola
+Suma: 8
+Resta: 2
+Area del triangulo: 7.50
+Perimetro del triangulo: 12.00
+Area del circulo: 28.27
+Perimetro del circulo: 18.85
+Area del cuadrado: 9.00
+Perimetro del cuadrado: 12.00
+Energia: 898755178736817664.00
+El texto se guardó correctamente.
+
