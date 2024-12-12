@@ -35,20 +35,20 @@ private:
 };
 
 int main() {
-    std::ofstream outFile("C:/Users/carlo/Desktop/uni/programacion/Flujos_C-/example.txt", std::ios_base::app);
+    std::ofstream outFile("C:/Users/danie/Desktop/Flujo_C-/example.txt", std::ios_base::app);
     if (!outFile) {
-        std::cerr << "No se pudo abrir el archivo.\n";
+        std::cerr << "No se pudo abrir el archivo para escritura.\n";
         return 1;
     }
 
     TeeStream teeStream(std::cout, outFile);
     std::ostream tee(&teeStream);
 
-    std::ifstream inputFile("C:/Users/carlo/Desktop/uni/programacion/Flujos_C-/example.txt");
+    std::ifstream inputFile("C:/Users/danie/Desktop/Flujo_C-/example.txt");
     if (!inputFile) {
-        tee << "No se pudo abrir el archivo.\n";
+        tee << "No se pudo abrir el archivo para lectura.\n";
     } else {
-        tee << "El archivo se abrió correctamente.\n";
+        tee << "El archivo se abrió correctamente para lectura.\n";
     }
 
     double num;
