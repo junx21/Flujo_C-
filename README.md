@@ -43,7 +43,7 @@ Ejercicios con Flujos
 Flujos Integrados
 Incluye el manejo de cadenas:
 
-
+```cpp
 #include <iostream>
 #include <string>
 
@@ -57,11 +57,12 @@ int main() {
     std::cout << "El número ingresado es: " << num << "\nEl texto ingresado es: " << text << std::endl;
     return 0;
 }
+```
 Estado de un Flujo
 Manejo de archivos:
 
-cpp
-Copiar código
+```cpp
+
 #include <iostream>
 #include <fstream>
 
@@ -76,11 +77,12 @@ int main() {
     file.close();
     return 0;
 }
+```
 Formato
 Muestra un número con dos decimales:
 
-cpp
-Copiar código
+```cpp
+
 #include <iostream>
 #include <iomanip>
 
@@ -91,11 +93,12 @@ int main() {
     std::cout << "El número ingresado es: " << std::fixed << std::setprecision(2) << num << std::endl;
     return 0;
 }
+```
 Flujo de Archivos
 Escribe texto en un archivo:
 
-cpp
-Copiar código
+```cpp
+
 #include <iostream>
 #include <fstream>
 
@@ -115,11 +118,12 @@ int main() {
     file.close();
     return 0;
 }
+```
 Flujo de Cadenas
 Manejo de cadenas con std::stringstream:
 
-cpp
-Copiar código
+```cpp
+
 #include <iostream>
 #include <sstream>
 
@@ -135,11 +139,11 @@ int main() {
     std::cout << "El texto desde el flujo de cadena es: " << text_from_ss << std::endl;
     return 0;
 }
+```
 Argumentos Locales
 Utilización de argumentos de línea de comandos:
 
-cpp
-Copiar código
+```cpp
 #include <iostream>
 #include <fstream>
 
@@ -160,6 +164,8 @@ int main(int argc, char* argv[]) {
     file.close();
     return 0;
 }
+
+```
 Ejecuta el programa desde la terminal con un argumento:
 
 bash
